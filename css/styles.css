@@ -23,11 +23,11 @@ ul {
 
 h2 {
   font-weight: 700;
-font-size: 36px;
-line-height: 111%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .top-logo {
@@ -46,18 +46,18 @@ color: #2e2f42;
 
 .header-nav li a {
   font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .header-addr {
   font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #434455;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .hero-img {
@@ -65,12 +65,12 @@ color: #434455;
 }
 
 .hero-img .hero-img-head {
-font-weight: 700;
-font-size: 56px;
-line-height: 107%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 
 .hero-img .hero-img-btn {
@@ -86,6 +86,7 @@ color: #fff;
   background: #4d5ae5;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .hero-img .hero-img-btn:hover {
@@ -95,17 +96,17 @@ color: #fff;
   text-align: center;
   background-color: #f4f4fd;
 }
-.our-team .team-card{
+.our-team .team-card {
   background-color: #fff;
 }
 
 .our-team h3,
 .our-portfolio h3 {
   font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .footer {
@@ -114,11 +115,11 @@ color: #2e2f42;
 }
 
 .bot-logo {
-  font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
