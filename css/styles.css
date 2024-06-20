@@ -13,8 +13,6 @@ a {
   text-decoration: none;
 }
 
-
-
 address {
   font-style: normal;
 }
@@ -191,4 +189,10 @@ h2 {
 
 .bot-logo .logo-accent {
   color: #f4f4fd;
+}
+
+.footer-pargf {
+  line-height: 150%;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
