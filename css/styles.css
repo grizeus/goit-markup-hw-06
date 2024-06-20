@@ -5,6 +5,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  background0-color: #ffffff;
 }
 
 a {
@@ -37,10 +38,14 @@ h2 {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .logo-accent {
+  color: #2e2f42;
+}
+
+.top-logo .logo-accent:hover {
   color: #4d5ae5;
 }
 
@@ -78,13 +83,7 @@ h2 {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
-  display: block;
   margin: 0 auto;
   cursor: pointer;
 }
