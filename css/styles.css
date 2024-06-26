@@ -235,7 +235,7 @@ img {
   background-color: #ffffff;
 }
 
-.thumbnail {
+.team-thumbnail {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -258,9 +258,9 @@ img {
   text-align: center;
 }
 
-.our-portfolio .container li {
-  flex: 0 0 30%;
-  box-sizing: border-box;
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-head {
@@ -270,17 +270,36 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
-.p-item-head {
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-card {
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-thumbnail {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-card-head {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
-.p-item-text {
+.portfolio-card-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
