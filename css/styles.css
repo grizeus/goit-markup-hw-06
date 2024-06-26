@@ -55,15 +55,20 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .section {
   width: 100%;
 }
 
 .container {
-  text-align: center;
   max-width: 1158px;
-  padding-left: 0;
-  margin-left: 120px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header .container {
@@ -83,8 +88,9 @@ img {
 }
 
 .top-logo {
-  margin-right: 56px;
+  margin-right: 76px;
 }
+
 .logo-accent {
   color: #2e2f42;
 }
@@ -106,8 +112,12 @@ img {
   gap: 40px;
 }
 
-.nav-link,
-.contacts-link {
+.nav-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -129,9 +139,6 @@ img {
 }
 
 .contacts-link {
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
