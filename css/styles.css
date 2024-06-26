@@ -55,10 +55,6 @@ img {
   overflow: hidden;
 }
 
-.section {
-  width: 100%;
-}
-
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -291,14 +287,11 @@ img {
   color: #434455;
 }
 
-.footer {
-  display: flex;
+.page-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: #f4f4fd;
   background-color: #2e2f42;
-}
-
-.footer .container {
-  text-align: left;
 }
 
 .bot-logo .logo-accent {
@@ -306,11 +299,10 @@ img {
 }
 
 .bot-logo {
-  margin-bottom: 17.5px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
-  line-height: 150%;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
+  max-width: 264px;
 }
