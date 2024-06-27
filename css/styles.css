@@ -72,6 +72,11 @@ img {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -183,11 +188,6 @@ img {
   background: #404bbf;
 }
 
-.feat {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .feat-list {
   display: flex;
   gap: 24px;
@@ -198,8 +198,6 @@ img {
 }
 
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 
@@ -227,11 +225,6 @@ img {
 .team-card-head,
 .team-card-text {
   text-align: center;
-}
-
-.portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio-list {
