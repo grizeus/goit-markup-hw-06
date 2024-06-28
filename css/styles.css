@@ -217,7 +217,7 @@ img {
   background-color: #ffffff;
 }
 
-.team-thumbnail {
+.team-card-info {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -238,7 +238,7 @@ img {
   flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
-.portfolio-thumbnail {
+.portfolio-card-info {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
