@@ -77,9 +77,6 @@ img {
   padding-bottom: 120px;
 }
 
-.icon {
-  fill: #2e2f42;
-}
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -228,16 +225,8 @@ img {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.icon-wrap {
-  display: flex;
-  justify-content: center;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background: #f4f4fd;
-  padding: 24px 100px;
-  margin-bottom: 8px;
+.feat-item .icon {
+  fill: #2e2f42;
 }
 
 .team {
@@ -285,12 +274,11 @@ img {
 .trailing-icons {
   display: flex;
   justify-content: space-around;
+  margin-top: 8px;
 }
 
 .trailing-icons .icon {
-  /* content: ""; */
   fill: #4d5ae5;
-  fill: red;
 }
 .portfolio-list {
   display: flex;
