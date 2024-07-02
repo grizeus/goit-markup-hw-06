@@ -128,6 +128,21 @@ img {
   padding-bottom: 24px;
   font-weight: 500;
   color: #2e2f42;
+  position: relative;
+}
+.nav-link.current {
+  color: #404bbf;
+}
+
+.nav-link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
 }
 
 .nav-link:hover,
