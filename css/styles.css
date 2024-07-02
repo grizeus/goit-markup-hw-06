@@ -103,12 +103,13 @@ img {
 
 .logo-accent {
   color: #2e2f42;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.top-logo .logo-accent:hover,
-.top-logo .logo-accent:focus,
-.bot-logo .logo-accent:hover,
-.bot-logo .logo-accent:focus {
+.top-logo:hover .logo-accent,
+.top-logo:focus .logo-accent,
+.bot-logo:hover .logo-accent,
+.bot-logo:focus .logo-accent {
   color: #4d5ae5;
 }
 
@@ -129,6 +130,7 @@ img {
   font-weight: 500;
   color: #2e2f42;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 .nav-link.current {
   color: #404bbf;
@@ -160,6 +162,7 @@ img {
 
 .contacts-link {
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .hero {
@@ -193,18 +196,19 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   text-align: center;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin: 0 auto;
   padding: 16px 32px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.hero .hero-btn:hover,
-.hero .hero-btn:focus {
-  background: #404bbf;
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 .feat-list {
