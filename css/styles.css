@@ -282,6 +282,16 @@ img {
   text-align: center;
 }
 
+.trailing-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.trailing-icons .icon {
+  /* content: ""; */
+  fill: #4d5ae5;
+  fill: red;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
