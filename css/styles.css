@@ -79,6 +79,7 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .page-header .container {
@@ -169,6 +170,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1440px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -178,7 +180,7 @@ img {
     url('../images/hero-bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 1440px;
+  background-size: cover;
   text-align: center;
   padding: 188px 0;
 }
@@ -225,19 +227,15 @@ img {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .feat-item .icon-wrap {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
   height: 112px;
   background: #f4f4fd;
   margin-bottom: 8px;
-}
-.feat-item .icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .team {
@@ -284,23 +282,33 @@ img {
 
 .trailing-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 24px;
   margin-top: 8px;
 }
 
-.trailing-icons .icon-wrap {
-  position: relative;
+.trailing-item {
   width: 40px;
   height: 40px;
-  background-color: #4d5ae5;
-  border-radius: 50px;
 }
+
+.trailing-icons .icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.trailing-icons .icon-link:hover {
+  background-color: #404bbf;
+}
+
 .trailing-icons .icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  fill: #f4f4fd;
+   fill: #f4f4fd;
 }
 
 .portfolio-list {
@@ -399,7 +407,7 @@ img {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
-  border-radius: 50px;
+  border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
