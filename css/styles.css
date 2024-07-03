@@ -382,7 +382,6 @@ img {
 .social-media-head {
   font-size: 16px;
   line-height: 150%;
-  text-transform: capitalize;
   color: #fff;
   margin-bottom: 16px;
 }
@@ -395,10 +394,23 @@ img {
   gap: 16px;
 }
 
-.social-media-icons .icon {
-  fill: #4d5ae5;
+.social-media-icons .icon-wrap {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.social-media-icons .icon:hover {
-  fill: #31d0aa;
+.social-media-icons .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #f4f4fd;
+}
+
+.social-media-icons .icon-wrap:hover {
+  background-color: #31d0aa;
 }
