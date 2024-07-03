@@ -224,9 +224,20 @@ img {
 .feat-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
-
+.feat-item .icon-wrap {
+  position: relative;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
 .feat-item .icon {
-  fill: #2e2f42;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .team {
@@ -277,8 +288,19 @@ img {
   margin-top: 8px;
 }
 
+.trailing-icons .icon-wrap {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50px;
+}
 .trailing-icons .icon {
-  fill: #4d5ae5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #f4f4fd;
 }
 
 .portfolio-list {
@@ -336,6 +358,14 @@ img {
   background-color: #2e2f42;
 }
 
+.footer-container {
+  display: flex;
+}
+
+.footer-content {
+  margin-right: 120px;
+}
+
 .bot-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -347,4 +377,28 @@ img {
 
 .footer-text {
   max-width: 264px;
+}
+
+.social-media-head {
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.social-media-icons .icon {
+  fill: #4d5ae5;
+}
+
+.social-media-icons .icon:hover {
+  fill: #31d0aa;
 }
