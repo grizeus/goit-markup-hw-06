@@ -303,7 +303,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.trailing-icons .icon-link:hover {
+.trailing-icons .icon-link:hover,
+.trailing-icons .icon-link:focus {
   background-color: #404bbf;
 }
 
@@ -328,13 +329,11 @@ img {
   overflow: hidden;
 }
 
-.portfolio-card .overlay {
+.portfolio-card .overlay-text {
   color: #f4f4fd;
   background-color: #4d5ae5;
   position: absolute;
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px;
   top: 0;
   left: 0;
   width: 100%;
@@ -343,8 +342,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.portfolio-card:hover .overlay {
-  transform: translateY(0);
+.portfolio-card:hover .overlay-text {
+  transform: translateY(0%);
 }
 
 .portfolio-card:hover {
