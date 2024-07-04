@@ -448,28 +448,38 @@
   </footer>
   <div class="modal-overlay">
     <div class="modal">
-      <button type="button" class="close-btn">
-        <svg class="icon" width="8" height="8">
-          <use href="./images/icons.svg#icon-close"></use>
-        </svg>
-      </button>
+      <div class="close-wrapper">
+        <button type="button" class="close-btn">&times;
+          <!-- <svg class="icon" width="8" height="8"> -->
+          <!-- <use href="./images/icons.svg#icon-close"></use> -->
+          <!-- </svg> -->
+        </button>
+      </div>
+
       <p class="modal-head">Leave your contacts and we will call you back</p>
       <form name="modal-form" action="" class="modal-form">
-        <label for="username" class="form-label">Name</label>
-        <input type="text" name="user_name" id="username" class="form-input" />
-        <label for="phone" class="form-label">Phone</label>
-        <input type="tel" name="user_tel" id="phone" class="form-input" />
-        <label for="email" class="form-label">Email</label>
-        <input type="email" name="user_email" id="email" class="form-input" />
-        <label for="comment" class="form-label">Comment</label>
+        <label for="username" class="form-label flex-item">Name</label>
+        <input type="text" name="user_name" id="username"
+          class="form-input flex-item" />
+        <label for="phone" class="form-label flex-item">Phone</label>
+        <input type="tel" name="user_tel" id="phone"
+          class="form-input flex-item" />
+        <label for="email" class="form-label flex-item">Email</label>
+        <input type="email" name="user_email" id="email"
+          class="form-input flex-item" />
+        <label for="comment" class="form-label flex-item">Comment</label>
         <textarea name="comment" cols="10" id="comment"
-          class="form-item form-textarea" placeholder="Text input" resize="none"
-          class="form-input"></textarea>
-        <input type="checkbox" name="policy" id="policy" value="accept" />
-        <label for="policy" class="form-label">
-          I accept the terms and conditions of the
-          <a href="" target="_blank" rel="noreferer" class="modal-link">privacy
-            policy</a></label>
+          class="form-input form-textarea flex-item" placeholder="Text input"
+          resize="none"></textarea>
+        <div class="checkbox-wrap">
+          <input type="checkbox" name="policy" id="policy" value="accept"
+            required />
+          <label for="policy" class="form-label">
+            I accept the terms and conditions of the
+            <a href="" target="_blank" rel="noreferer"
+              class="modal-link">privacy
+              policy</a></label>
+        </div>
         <button type="submit" class="submit-btn">Send</button>
       </form>
     </div>
