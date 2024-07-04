@@ -431,15 +431,17 @@
       </div>
       <div class="footer-subscription">
         <form class="footer-form">
-          <label for="footer-sub">Subscribe</label>
-          <input type="email" name="sub-email" placeholder="E-mail"
-            id="footer-sub" />
+          <label for="footer-input" class="footer-label">Subscribe</label>
+          <div class="flex-group">
+          <input type="email" name="client-email" placeholder="E-mail"
+            id="footer-input" class="footer-input" required/>
           <button type="submit" class="footer-sub-btn">
             Subscribe
             <svg class="icon" width="24" height="20">
               <use href="./images/icons.svg#icon-send"></use>
             </svg>
           </button>
+            </div>
         </form>
       </div>
     </div>

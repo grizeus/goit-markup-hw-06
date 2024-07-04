@@ -435,8 +435,50 @@ img {
   margin-left: 80px;
 }
 
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-label {
+  cursor: pointer;
+}
+
+.flex-group {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.footer-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: inherit;
+}
+
+.footer-input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
 .footer-sub-btn {
   display: flex;
+  align-self: flex-end;
+  flex-direction: row;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.04em;
@@ -451,4 +493,10 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.footer-sub-btn:hover,
+.footer-sub-btn:focus {
+  background-color: #404bbf;
 }
