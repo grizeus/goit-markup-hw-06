@@ -1,4 +1,3 @@
-
 /*NOTE: GENERAL */
 
 body {
@@ -429,4 +428,27 @@ img {
 .socmedia-icons .icon-link:hover,
 .socmedia-icons .icon-link:focus {
   background-color: #31d0aa;
+}
+.footer-subscription {
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.footer-sub-btn {
+  display: flex;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
