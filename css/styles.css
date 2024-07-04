@@ -78,6 +78,7 @@ img {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: 0 auto;
 }
 
 /* NOTE: HEADER */
@@ -189,10 +190,9 @@ img {
     ),
     url('../images/hero-bg.jpg');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   text-align: center;
-  padding: 188px 0;
 }
 
 .hero-head {
