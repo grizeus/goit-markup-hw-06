@@ -537,16 +537,20 @@ img {
   border-radius: 4px;
   padding: 24px;
 }
+
 .close-wrapper {
   display: flex;
   justify-content: flex-end;
 }
+
 .modal .close-btn {
+  font-size: 0;
   display: block;
+  line-height: 100%;
   text-align: right;
-  /* position: absolute; */
+  padding: 8px;
   margin-bottom: 24px;
-  border-radius: 50%;
+  border-radius: 100%;
   color: #2e2f42;
   background-color: #e7e9fc;
   stroke-width: 1px;
@@ -572,16 +576,8 @@ img {
   flex-direction: column;
   max-width: 408px;
   margin: 16px 0;
-  /* gap: 8px; */
 }
 
-/* .form-label + .form-input { */
-/*   margin-bottom: 8px; */
-/* } */
-/**/
-/* .form-input + .form-label { */
-/*   margin-bottom: 4px; */
-/* } */
 .flex-item {
   margin-top: 0;
 }
@@ -597,6 +593,7 @@ img {
 .flex-item:first-child {
   margin-top: 0;
 }
+
 .form-label {
   font-weight: 400;
   font-size: 12px;
@@ -646,8 +643,14 @@ img {
 .submit-btn {
   align-self: center;
   border-radius: 4px;
-  padding: 16px 32px;
+  width: 169px;
+  padding: 16px 0;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   border: none;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
 }
