@@ -608,10 +608,24 @@ img {
   align-items: center;
   width: 100%;
   padding: 10px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
 }
 
+
 .input-wrapper .icon {
-  fill: #2e2f42;;
+  margin-right: 16px;
+  fill: #2e2f42;
+}
+
+.input-wrapper .form-input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+  background-color: inherit;
 }
 
 .form-input {
@@ -619,7 +633,7 @@ img {
   border-radius: 4px;
 }
 
-.form-input:focus-within {
+.input-wrapper:focus-within {
   border-color: #4d5ae5;
 }
 
@@ -646,10 +660,15 @@ img {
 .checkbox-wrap {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: baseline;
   margin-top: 16px;
   margin-bottom: 24px;
   gap: 8px;
+}
+
+.checkbox-wrap .icon {
+  fill: #000;
+  color: #f00;
 }
 
 .submit-btn {
