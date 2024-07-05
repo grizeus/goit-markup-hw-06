@@ -602,6 +602,18 @@ img {
   color: #8e8f99;
 }
 
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.input-wrapper .icon {
+  fill: #2e2f42;;
+}
+
 .form-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
