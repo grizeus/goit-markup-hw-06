@@ -515,8 +515,8 @@ img {
   align-items: center;
   z-index: 999;
   /* FIX: for debug priod */
-  /* opacity: 0; */
-  /* pointer-events: none; */
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal-overlay.is-open {
