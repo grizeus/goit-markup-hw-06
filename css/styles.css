@@ -489,14 +489,15 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.footer-sub-btn:hover,
-.footer-sub-btn:focus {
-  background-color: #404bbf;
-}
-
 .subscription-btn .icon {
   margin-left: 16px;
 }
+
+.subscription-btn:hover,
+.subscription-btn:focus {
+  background-color: #404bbf;
+}
+
 /* NOTE: MODAL */
 
 .modal-overlay {
@@ -513,7 +514,6 @@ img {
   transition:
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  /* FIX: for debug priod */
   opacity: 0;
   pointer-events: none;
 }
