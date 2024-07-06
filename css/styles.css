@@ -429,28 +429,25 @@ img {
 .socmedia-icons .icon-link:focus {
   background-color: #31d0aa;
 }
+
 .footer-subscription {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  margin-left: 80px;
+  margin-left: 80px; */
 }
 
-.footer-form {
+.subscription-header {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.subscription-form {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-}
-.footer-label {
-  cursor: pointer;
-}
-
-.flex-group {
-  display: flex;
-  flex-direction: row;
   gap: 24px;
 }
 
-.footer-input {
+.subscription-input {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -460,13 +457,12 @@ img {
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  padding: 8px 16px;
+  padding-left: 16px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: inherit;
+  background-color: transparent;
 }
 
-.footer-input::placeholder {
-  font-family: 'Roboto', sans-serif;
+.subscription-input::placeholder {
   font-weight: 400;
   font-size: 12px;
 
@@ -475,20 +471,18 @@ img {
   color: #fff;
 }
 
-.footer-sub-btn {
+.subscription-btn {
   display: flex;
-  align-self: flex-end;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.04em;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
   gap: 16px;
+  border: none;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   color: #fff;
   background-color: #4d5ae5;
@@ -501,6 +495,9 @@ img {
   background-color: #404bbf;
 }
 
+.subscription-btn .icon {
+  margin-left: 16px;
+}
 /* NOTE: MODAL */
 
 .modal-overlay {

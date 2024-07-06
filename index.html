@@ -463,24 +463,22 @@
           </ul>
         </div>
         <div class="footer-subscription">
-          <form class="footer-form">
-            <label for="footer-input" class="footer-label">Subscribe</label>
-            <div class="flex-group">
+          <p class="subscription-header">Subscribe</p>
+          <form class="subscription-form">
+            <label for="subscription-input" class="subscription-label">
               <input
                 type="email"
                 name="client-email"
                 placeholder="E-mail"
-                id="footer-input"
-                class="footer-input"
-                required
-              />
-              <button type="submit" class="footer-sub-btn">
-                Subscribe
-                <svg class="icon" width="24" height="20">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-            </div>
+                id="subscription-input"
+                class="subscription-input"
+            /></label>
+            <button type="submit" class="subscription-btn">
+              Subscribe
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -496,7 +494,7 @@
         </div>
 
         <p class="modal-head">Leave your contacts and we will call you back</p>
-        <form name="modal-form" action="" class="modal-form">
+        <form name="modal-form" class="modal-form">
           <label for="username" class="form-label flex-item">Name</label>
           <div class="input-wrapper flex-item">
             <svg class="icon" width="18" height="18">
