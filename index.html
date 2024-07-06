@@ -60,7 +60,7 @@
       <section class="section hero">
         <div class="container">
           <h1 class="hero-head">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn">Order Service</button>
+          <button type="button" class="hero-btn action-btn">Order Service</button>
         </div>
       </section>
 
@@ -538,35 +538,38 @@
               </svg>
             </div>
           </div>
-          <label for="comment" class="form-label">Comment</label>
-          <textarea
-            name="comment"
-            cols="10"
-            id="comment"
-            class="form-input form-textarea"
-            placeholder="Text input"
-          ></textarea>
-          <div class="checkbox-wrap">
-            <input
-              type="checkbox"
-              name="policy"
-              id="policy"
-              value="accept"
-              class="visually-hidden"
-              required
-            />
-            <svg class="icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-checkbox"></use>
-              <use href="./images/icons.svg#icon-checkmark"></use>
-            </svg>
-            <label for="policy" class="form-label">
-              I accept the terms and conditions of the
-              <a href="" target="_blank" rel="noreferer" class="modal-link"
-                >privacy policy</a
-              ></label
-            >
+          <div class="outer-wrap">
+            <label for="user-comment" class="form-label">Comment</label>
+            <textarea
+              name="user-comment"
+              cols="10"
+              id="user-comment"
+              class="form-input form-textarea"
+              placeholder="Text input"
+            ></textarea>
+            <div class="checkbox-wrap">
+              <input
+                type="checkbox"
+                name="user-privacy"
+                id="user-privacy"
+                value="true"
+                class="visually-hidden form-input"
+                required
+              />
+              <label for="user-privacy" class="form-label">
+                <span class="svg-checkbox">
+                  <svg class="icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-checkmark"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the
+                <a href="" target="_blank" rel="noreferer" class="modal-link"
+                  >Privacy Policy</a
+                ></label
+              >
+            </div>
           </div>
-          <button type="submit" class="submit-btn">Send</button>
+          <button type="submit" class="submit-btn action-btn">Send</button>
         </form>
       </div>
     </div>
