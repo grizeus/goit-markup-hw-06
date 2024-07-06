@@ -431,26 +431,23 @@ img {
 }
 
 .footer-subscription {
-  /* display: flex;
-  justify-content: center;
-  margin-left: 80px; */
+  margin-left: 80px;
 }
 
 .subscription-header {
   margin-bottom: 16px;
   font-weight: 500;
+  color: #fff;
 }
 
 .subscription-form {
   display: flex;
-  flex-direction: column;
   gap: 24px;
 }
 
 .subscription-input {
-  font-weight: 400;
   font-size: 12px;
-  line-height: 2;
+  line-height: 200%;
   letter-spacing: 0.04em;
   color: #fff;
   border: 1px solid #fff;
