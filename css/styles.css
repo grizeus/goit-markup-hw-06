@@ -525,6 +525,7 @@ img {
 
 .modal {
   position: absolute;
+  width: 408px;
   min-height: 584px;
   top: 50%;
   left: 50%;
@@ -642,8 +643,12 @@ img {
   outline: none;
 }
 
+.textarea-wrap {
+  margin-bottom: 16px;
+}
 .form-textarea {
   font-size: 12px;
+  line-height: 117%;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
@@ -654,7 +659,7 @@ img {
 .form-textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 117%;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
