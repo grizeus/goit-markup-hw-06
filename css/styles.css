@@ -195,6 +195,12 @@ img {
   text-align: center;
 }
 
+@media screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('../images/hero-bg@2x.jpg');
+  }
+}
+
 .hero-head {
   max-width: 496px;
   font-weight: 700;
