@@ -7,7 +7,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  background-color: #ffffff;
+  background-color: #fff;
+  overflow-x: hidden;
 }
 
 h1,
@@ -68,10 +69,18 @@ img {
 }
 
 .container {
-  max-width: 1158px;
-  margin: 0 auto;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .section {
@@ -90,10 +99,27 @@ img {
     0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
-.page-header .container {
+.menu-icon-wrap .icon {
+  fill: #2f2f37;
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .menu-icon-wrap {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .logo {
@@ -128,10 +154,20 @@ img {
 }
 
 .nav-list {
-  display: flex;
-  gap: 40px;
+  display: none;
 }
 
+@media (min-width: 768px) {
+  .nav-list {
+    display: flex;
+    gap: 40px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .nav-list {
+  }
+}
 .nav-link {
   display: inline-block;
   padding-top: 24px;
@@ -156,6 +192,15 @@ img {
   background-color: #404bbf;
 }
 
+.contacts {
+  display: none;
+}
+
+@media screen and (min-width: 758px) {
+  .contacts {
+    display: block;
+  }
+}
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
