@@ -821,6 +821,35 @@ img {
   .portfolio-card {
     flex-basis: calc((100% - 24px) / 2);
   }
+
+  .page-footer {
+    padding-left: 108px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .footer-content {
+    align-items: start;
+  }
+
+  .footer-socmedia {
+    align-items: start;
+    margin-right: auto;
+  }
+
+  .footer-subscription {
+    align-items: start;
+    /* margin-left: auto; */
+  }
+
+  .subscription-form {
+    flex-direction: row;
+    gap: 24px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -902,23 +931,18 @@ img {
   .page-footer {
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 0;
   }
 
   .footer-container {
-    flex-direction: row;
     gap: 0;
     align-items: baseline;
   }
 
   .footer-content {
-    align-items: start;
     margin-right: 120px;
   }
 
-  .footer-socmedia {
-    align-items: start;
-  }
-  
   .footer-subscription {
     align-items: start;
     margin-left: auto;
