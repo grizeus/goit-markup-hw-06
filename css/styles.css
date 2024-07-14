@@ -511,6 +511,11 @@ img {
   background-color: transparent;
 }
 
+.subscription-input:focus-within,
+.subscription-input:focus-visible {
+  outline: transparent;
+}
+
 .subscription-input::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -680,7 +685,7 @@ img {
 }
 
 .form-input:focus-visible {
-  outline: none;
+  outline: transparent;
 }
 
 .textarea-wrap {
@@ -894,7 +899,7 @@ img {
     display: none;
   }
 
-/* NOTE: MENU */
+  /* NOTE: MENU */
 
   .mob-overlay {
     position: fixed;
