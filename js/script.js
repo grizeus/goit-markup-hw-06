@@ -1,15 +1,20 @@
-const openModal = document.getElementsByClassName("subscription-btn")[0];
-const modalOverlay = document.getElementsByClassName("modal-overlay")[0];
-const closeModal = document.getElementsByClassName("modal-close-btn")[0];
+function handleModal(openBtn, overlay, closeBtn) {
+  const open = document.querySelector(openBtn);
+  const modal = document.querySelector(overlay);
+  const close = document.querySelector(closeBtn);
 
-openModal.addEventListener("click", e => {
-  e.preventDefault();
-  modalOverlay.classList.add("is-open");
-});
+  open.addEventListener("click", e => {
+    e.preventDefault();
+    modal.classList.add("is-open");
+  });
 
-closeModal.addEventListener("click", e => {
-  e.preventDefault();
-  setTimeout(() => {
-    modalOverlay.classList.remove("is-open");
-  }, 50);
-});
+  close.addEventListener("click", e => {
+    e.preventDefault();
+    setTimeout(() => {
+      modal.classList.remove("is-open");
+    }, 50);
+  });
+}
+
+handleModal(".subscription-btn", ".modal-overlay", ".modal-close-btn");
+handleModal(".menu-btn", ".mob-overlay", ".menu-close-btn");
