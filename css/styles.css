@@ -1,7 +1,7 @@
 /*NOTE: GENERAL */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -62,6 +62,10 @@ img {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -95,10 +99,8 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow:
-    0 1px 6px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -118,7 +120,7 @@ img {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -214,7 +216,7 @@ img {
 }
 
 .hero picture::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -252,7 +254,6 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   border: none;
-  cursor: pointer;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.04em;
@@ -316,19 +317,15 @@ img {
 .team-card {
   max-width: 264px;
   border-radius: 0px 0px 4px 4px;
-  box-shadow:
-    0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .team-card:hover {
-  box-shadow:
-    inset 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: inset 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-card-info {
@@ -539,7 +536,6 @@ img {
   height: 40px;
   color: #fff;
   background-color: #4d5ae5;
-  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
@@ -565,8 +561,7 @@ img {
   justify-content: center;
   align-items: start;
   z-index: 999;
-  transition:
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   opacity: 0;
   pointer-events: none;
@@ -584,9 +579,7 @@ img {
   left: 50%;
   transform: translate(-50%, 2%);
   background-color: #fcfcfc;
-  box-shadow:
-    0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   transition: trnasform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   border-radius: 4px;
@@ -604,10 +597,8 @@ img {
   justify-content: center;
   align-items: center;
   background-color: #e7e9fc;
-  cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  transition:
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -736,8 +727,7 @@ img {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition:
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
@@ -783,7 +773,7 @@ img {
   }
 
   .nav-link.current::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -909,18 +899,19 @@ img {
     height: 100%;
     background-color: #fff;
     z-index: 999;
-    transition:
-      opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transform: translateY(-100%);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      transform 500ms cubic-bezier(0.4, 0, 0.2, 1) 100ms;
     opacity: 0;
     pointer-events: none;
   }
 
   .mob-menu {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: relative;
     max-width: 320px;
     margin: 0 auto;
     height: 100%;
@@ -939,8 +930,7 @@ img {
     align-items: center;
     background-color: transparent;
     border: 1px solid #e7e9fc;
-    transition:
-      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -984,8 +974,10 @@ img {
   }
 
   .mob-overlay.is-open {
+    visibility: visible;
     opacity: 1;
     pointer-events: auto;
+    transform: translateY(0%);
   }
 }
 
@@ -1084,10 +1076,8 @@ img {
   }
 
   .portfolio-card:hover {
-    box-shadow:
-      0 2px 1px 0 rgba(46, 47, 66, 0.08),
-      0 1px 1px 0 rgba(46, 47, 66, 0.16),
-      0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   }
 
   .page-footer {
