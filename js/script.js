@@ -10,9 +10,16 @@ function handleModal(openBtn, overlay, closeBtn) {
 
   close.addEventListener("click", e => {
     e.preventDefault();
-    setTimeout(() => {
-      modal.classList.remove("is-open");
-    }, 50);
+    modal.classList.remove("is-open");
+    modal.classList.add("is-closing");
+
+    modal.addEventListener(
+      "animationend",
+      () => {
+        modal.classList.remove("is-closing");
+      },
+      { once: true }
+    );
   });
 }
 
