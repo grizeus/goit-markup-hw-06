@@ -625,6 +625,10 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @supports (-webkit-touch-callout: none) {
+    padding: 0px;
+  }
 }
 
 .modal-close-btn:hover,
@@ -1032,6 +1036,10 @@ button {
     border: 1px solid #e7e9fc;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @supports (-webkit-touch-callout: none) {
+      padding: 0;
+    }
   }
 
   .menu-close-btn .icon {
